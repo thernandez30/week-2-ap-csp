@@ -31,7 +31,7 @@ num2 = 3
 num3 = int(input("what is your 3rd favorite number")) #5
 num4 = int(input("what is your 4th favorite number"))#4
 print(num1 + num2) # output 6
-print(num3 + num4) #output 9 (it would've been 54 if you didn)
+print(num3 + num4) #output 9 (it would've been 54 if you didn't use int)
 #  Step 4: User Input Practice
 # Ask the user two questions and combine answers
 
