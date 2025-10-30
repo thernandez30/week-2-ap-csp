@@ -35,11 +35,18 @@ print("Length of phrase:", len(phrase))  # Output: 14
 
 
 declaration_of_independence = "When, in the course of human events, it becomes necessary for one people to dissolve the political bands which have connected them with another, and to assume, among the powers of the earth, the separate and equal station to which the laws of nature and of natures God entitle them, a decent respect to the opinions of mankind requires that they should declare the causes which impel them to the separation."
-print(len(declaration_of_independence))
+print(len(declaration_of_independence)) #Output: 407
 
 # ----------------------------------------
 # 3. Indexing and Slicing
 # ----------------------------------------
+
+chicago_mayor = "Johnson"
+#index slicing
+print(chicago_mayor[0]) #first letter
+print(chicago_mayor[6]) #last letter
+print(chicago_mayor[4]) #s
+
 
 # Indexing: Access characters by position (0-based index)
 print("First character:", phrase[0])  # Output: P
