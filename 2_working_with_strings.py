@@ -62,6 +62,18 @@ print(chicago_mayor[ 1: 5 ])
 # from a string. it's called
 # string slicing
 
+phrase3 = "Supercagifragilstic"
+#uppercase it
+print(phrase3.upper())
+#slice Super into a diff variable
+cut = phrase3[0:5]
+print(cut)
+#slice cago into a diff variable
+cut1 = phrase3[5:8]
+print(cut1)
+#print last letter
+print(phrase3[-1])
+
 
 # Indexing: Access characters by position (0-based index)
 print("First character:", phrase[0])  # Output: P
